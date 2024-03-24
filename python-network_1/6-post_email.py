@@ -1,11 +1,68 @@
 #!/usr/bin/python3
-"""Request to the URL and displays the value of the variable."""
+"""A script that sends POST requests and displays the response"""
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     import requests
     import sys
 
-    respo = requests.get(sys.argv[1])
-    header_var = respo.headers.get('X-Request-Id')
-    print(header_var)
+    xyz = {'email': sys.argv[2]}
+    request = requests.post(sys.argv[1], data=xyz)
+    print("{}".format(request.text))
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --                                                                    1,1           All
+
